@@ -1,0 +1,75 @@
+/* Import Tailwind base styles, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+/* Custom font styles to match brand guidelines */
+:root {
+  --font-size-h1: 3rem; /* 48px */
+  --font-size-h2: 2.5rem; /* 40px */
+  --font-size-h3: 2rem; /* 32px */
+  --font-size-h4: 1.5rem; /* 24px */
+  --font-size-body-lg: 1.5rem; /* 24px */
+  --font-size-body-md: 1rem; /* 16px */
+  --font-size-body-sm: 0.75rem; /* 12px */
+}
+
+/* Applied brand custom fonts and sizes */
+body {
+  margin: 0;
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: var(--font-size-h1);
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: var(--font-size-h2);
+  line-height: 1;
+}
+
+h3 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: var(--font-size-h3);
+  line-height: 1;
+}
+
+h4 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: var(--font-size-h4);
+  line-height: 1;
+}
+
+/* Style body text with custom sizes */
+.body-lg {
+  font-family: 'Rubik', sans-serif;
+  font-size: var(--font-size-body-lg);
+  line-height: 1.75;
+}
+
+.body-md {
+  font-family: 'Rubik', sans-serif;
+  font-size: var(--font-size-body-md);
+  line-height: 1.5;
+}
+
+.body-sm {
+  font-family: 'Rubik', sans-serif;
+  font-size: var(--font-size-body-sm);
+  line-height: 1.25;
+}
+
+code {
+  font-family: 'Rubik', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
