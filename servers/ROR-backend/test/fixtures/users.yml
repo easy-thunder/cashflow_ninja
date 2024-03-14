@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  password_hash: MyString
+  is_admin: false
+  can_view_all_accounts: false
+  mfa_enabled: false
+  family: one
+
+two:
+  email: MyString
+  password_hash: MyString
+  is_admin: false
+  can_view_all_accounts: false
+  mfa_enabled: false
+  family: two
